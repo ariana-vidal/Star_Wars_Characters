@@ -1,5 +1,5 @@
 :root {
-  --color-background:#81AAB3;
+  --color-background:#f1f4f5;
 }
 
 *{
@@ -21,4 +21,10 @@ a{
 
 a:hover{
   opacity: 0.8;
+}
+
+main{
+  width: 100%;
+  height: calc(100vh - 120px);
+  display: flex;
 }
