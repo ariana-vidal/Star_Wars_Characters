@@ -2,6 +2,7 @@
   <div id="app"> 
     <TheHeader />
     <TheHome />
+    <TheFooter />
   </div>
 </template>
 
@@ -9,11 +10,13 @@
 import './styles/global.css'
 import TheHeader from './components/TheHeader';
 import TheHome from './components/TheHome';
+import TheFooter from './components/TheFooter';
 export default {
   name: 'App',
   components: {
     TheHeader,
-    TheHome
+    TheHome,
+    TheFooter
   }
 }
 </script>
