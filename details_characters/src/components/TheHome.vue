@@ -1,9 +1,12 @@
 <template>
   <main>
     <div v-if="!carregando" class="personApi">
-        <section v-for="(personApi, index) in peopleApi" :key="index">
-          <p>{{ personApi.name }}</p>
-          <button class="button">Mais detalhes</button>
+        <section class="section" v-for="(personApi, index) in peopleApi" :key="index">
+          <p><b><i>{{ `Name: ${personApi.name}` }}</i></b></p>
+          <p>{{ `Height: ${personApi.height}` }}</p>
+          <p>{{ `Birth year: ${personApi.birth_year}` }}</p>
+          <p>{{ `Gender: ${personApi.gender}` }}</p>
+          <button class="button"><b>Mais detalhes</b></button>
         </section>
     </div>
     <div v-else>
@@ -50,9 +53,15 @@ main{
   display: flex;
   max-width:600px;
   margin:0 auto;
+  margin-top: 30px;
   flex-wrap: wrap;
   justify-content: space-between;
 
+}
+
+.section{
+  width: 30%;
+  height: 10%;
 }
 
 .button{
@@ -69,5 +78,7 @@ main{
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
+
+
 
 </style>

@@ -8,6 +8,9 @@ export function consultarPeople() {
     return people.results?.map((person) => {
       const obg ={
         name: person.name,
+        height: person.height,
+        birth_year: person.birth_year,
+        gender: person.gender,
         starships: person.starships
       }
       console.log(obg);
