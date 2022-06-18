@@ -6,7 +6,11 @@
           <p>{{ `Height: ${personApi.height}` }}</p>
           <p>{{ `Birth year: ${personApi.birth_year}` }}</p>
           <p>{{ `Gender: ${personApi.gender}` }}</p>
-          <button class="button"><b>Mais detalhes</b></button>
+          <button class="button">
+            <router-link :to="'/more-details/' + personApi.id">
+              <b>Mais detalhes</b>
+            </router-link>
+          </button>
         </section>
     </div>
     <div v-else>
