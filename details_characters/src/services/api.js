@@ -7,6 +7,7 @@ export function consultarPeople() {
     const people = promise.data;
     return people.results?.map((person) => {
       const obg ={
+        id: person.url.replace(/[^\d]+/gi, ''),
         name: person.name,
         height: person.height,
         birth_year: person.birth_year,
