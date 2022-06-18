@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
   header{
-    background-image: linear-gradient(to top, #000000 0%, #964b00 100%);
+    background-image: linear-gradient(to top, #000000 0%, #003964 100%);
     width: 100%;
     height: 60px;
     display: flex;

@@ -16,7 +16,7 @@
   footer{
     width: 100%;
     height: 60px;
-    background-image: linear-gradient(to top, #964b00 0%, #000000 100%);
+    background-image: linear-gradient(to top, #003964 0%, #000000 100%);
     display: flex;
     justify-content: center;
     align-items: center;
