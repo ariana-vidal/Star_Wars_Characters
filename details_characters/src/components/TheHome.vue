@@ -38,7 +38,6 @@
         this.carregando = true;
         consultarPeople().then((peopleApi) => {
           this.peopleApi = peopleApi;
-          console.log(this.peopleApi);
           this.carregando = false;
         });
       }

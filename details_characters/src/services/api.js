@@ -14,7 +14,6 @@ export function consultarPeople() {
         gender: person.gender,
         starships: person.starships
       }
-      console.log(obg);
       return obg;
     })
   })
