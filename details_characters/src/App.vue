@@ -1,21 +1,20 @@
 <template>
-  <div id="app"> 
+  <div id="app">
     <TheHeader />
-    <TheHome />
+    <router-view path="$router.key"/>
     <TheFooter />
   </div>
 </template>
 
-<script>
-import './styles/global.css'
-import TheHeader from './components/TheHeader';
-import TheHome from './components/TheHome';
-import TheFooter from './components/TheFooter';
-export default {
+<script> 
+  import './styles/global.css'
+  import TheHeader from './components/TheHeader';
+  import TheFooter from './components/TheFooter';
+
+  export default {
   name: 'App',
   components: {
     TheHeader,
-    TheHome,
     TheFooter
   }
 }

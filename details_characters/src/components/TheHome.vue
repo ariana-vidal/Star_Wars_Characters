@@ -6,7 +6,11 @@
           <p>{{ `Height: ${personApi.height}` }}</p>
           <p>{{ `Birth year: ${personApi.birth_year}` }}</p>
           <p>{{ `Gender: ${personApi.gender}` }}</p>
-          <button class="button"><b>Mais detalhes</b></button>
+          <button class="button">
+            <router-link :to="'/more-details/' + personApi.id">
+              <b>Mais detalhes</b>
+            </router-link>
+          </button>
         </section>
     </div>
     <div v-else>
@@ -34,7 +38,6 @@
         this.carregando = true;
         consultarPeople().then((peopleApi) => {
           this.peopleApi = peopleApi;
-          console.log(this.peopleApi);
           this.carregando = false;
         });
       }
@@ -51,9 +54,10 @@ main{
 
 .personApi{
   display: flex;
-  max-width:600px;
-  margin:0 auto;
+  max-width:100%;
+  margin:10 auto;
   margin-top: 30px;
+ margin-left: 30px;
   flex-wrap: wrap;
   justify-content: space-between;
 
@@ -72,8 +76,7 @@ main{
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #fff;
-  background-color: #003964;
+  background-color: #fff;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
