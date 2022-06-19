@@ -25,7 +25,15 @@
 </table>
 
 <h2>⬇️Como rodar a aplicação⬇️</h2>
-<h3>Basta clonar o projeto e rodar o comoando ➡️<b><i>npm start</i></b>⬅️ 🤞</h3>
+<li>1) Clone o projeto.</li>
+<li>2) Rode o seguinte comando :<b><i>cd details_characters</i></b> para entrar na pasta do projeto.</li>
+<li>3) Rode o seguinte comando :<b><i>npm install</i></b> para instalar as dependências do projeto.</li>
+
+<li>4) Caso não tenha a biblioteca AXIOS instalada rode o seguinte comando :<b><i>npm install axios</i></b> para instalar 😉.</li>
+
+<li>5) Você vai precisar também do <b>vue router na versão 3.5.1</b>, então se não tiver rode o seguinte comando :<b><i>npm install vue-router@3</i></b> para instalar 😉.</li>
+
+<li>6) Agora apertem ocintos e cruzem os dedos porque vamos conhecer os personagens de <b>STAR WARS</b> basta rodar o comoando ➡️<b><i>npm start</i></b>⬅️ copiar o link do localhoast que vai aparecer em seu terminal e colar em seu navegador 🤞.</li>
 
 
 
