@@ -54,9 +54,10 @@ main{
 
 .personApi{
   display: flex;
-  max-width:600px;
-  margin:0 auto;
+  max-width:100%;
+  margin:10 auto;
   margin-top: 30px;
+ margin-left: 30px;
   flex-wrap: wrap;
   justify-content: space-between;
 
@@ -75,8 +76,7 @@ main{
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #fff;
-  background-color: #003964;
+  background-color: #fff;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;

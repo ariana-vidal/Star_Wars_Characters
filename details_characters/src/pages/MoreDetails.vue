@@ -91,8 +91,7 @@ main{
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #fff;
-  background-color: #003964;
+  background-color: #fff;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
