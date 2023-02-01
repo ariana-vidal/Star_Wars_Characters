@@ -24,7 +24,8 @@
   </tr>
 </table>
 
-<a href="https://ariana-ariana-vidal.vercel.app/#/">link<a />
+<h2>⬇️link do deploy da aplicação⬇️</h2>
+<a href="https://ariana-ariana-vidal.vercel.app/#/">Star Wars<a />
 
 <h2>⬇️Como rodar a aplicação⬇️</h2>
 <li>1) Clone o projeto.</li>
