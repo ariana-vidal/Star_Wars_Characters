@@ -24,6 +24,8 @@
   </tr>
 </table>
 
+<a href="https://ariana-ariana-vidal.vercel.app/#/">link<a />
+
 <h2>⬇️Como rodar a aplicação⬇️</h2>
 <li>1) Clone o projeto.</li>
 <li>2) Rode o seguinte comando: <b><i>cd details_characters</i></b> para entrar na pasta do projeto.</li>
